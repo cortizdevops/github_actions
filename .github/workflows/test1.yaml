@@ -9,3 +9,10 @@ jobs:
     steps:
     - name: Step1
       run: echo "Hola Mundo"
+
+  job2:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Step1 LS
+      run: ls -al
