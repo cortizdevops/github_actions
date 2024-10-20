@@ -16,4 +16,4 @@ jobs:
           cat holat.txt
           ls -la
           chmod +x script.sh
-          ./scripts.sh
+          ./script.sh
