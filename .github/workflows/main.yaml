@@ -38,4 +38,7 @@ jobs:
 
       - name: use php
         run: php --version
+      
+      - name: use services
+        run: gg
             
