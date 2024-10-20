@@ -15,5 +15,5 @@ jobs:
           echo "Hola Mundo" >> holat.txt
           cat holat.txt
           ls -la
-          chmod +x scripts.sh
-          ./
+          chmod +x script.sh
+          ./scripts.sh
