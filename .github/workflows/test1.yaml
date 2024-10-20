@@ -14,11 +14,11 @@ jobs:
       run: touch hola.txt
 
     - name: Step3 set text
-      run echo "Hola Mundo" >> hola.txt
+      run: echo "Hola Mundo" >> hola.txt
 
     - name: Step4 Read File
       run: cat hola.txt
-      
+
   job2:
     runs-on: ubuntu-latest
 
