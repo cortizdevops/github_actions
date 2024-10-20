@@ -11,6 +11,8 @@ jobs:
     steps:
       - name: test_var
         run: echo "Valor $MY_VAR"
+      - name: test_var_contexto
+        run: echo "Valor ${{vars.MY_VARIABLE_2}}"
 
       - name: Checkout
         uses: actions/checkout@v4.2.1
