@@ -10,6 +10,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4.2.1
 
+      - name: use actions
+        uses: ./.github/actions/my-action
+
       - name: ls
         run: | 
           echo "Hola Mundo" >> holat.txt
