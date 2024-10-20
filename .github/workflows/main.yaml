@@ -17,3 +17,10 @@ jobs:
           ls -la
           chmod +x script.sh
           ./script.sh
+      
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v4.0.4
+            
+      - name: use node
+        run: node --version
+
