@@ -10,7 +10,7 @@ jobs:
 
     steps:
       - name: test_var
-        run: echo "Valor: $MY_VAR"
+        run: echo "Valor $MY_VAR"
 
       - name: Checkout
         uses: actions/checkout@v4.2.1
