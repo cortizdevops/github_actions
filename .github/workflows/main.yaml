@@ -25,3 +25,9 @@ jobs:
             
       - name: use node
         run: node --version
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@2.31.1
+        with:
+          php-version: '8.3'
+            
