@@ -18,6 +18,9 @@ jobs:
 
     - name: Step4 Read File
       run: cat hola.txt
+    
+    - name: Step LS
+      run: ls -al
 
   job2:
     runs-on: ubuntu-latest
