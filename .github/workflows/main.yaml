@@ -5,8 +5,13 @@ on: [push]
 jobs:
   tests-build:
     runs-on: ubuntu-latest
+    env:
+      MY_VAR: Mi variable de entorno
 
     steps:
+      - name: test_var
+        run: echo "Valor: $MY_VAR"
+
       - name: Checkout
         uses: actions/checkout@v4.2.1
 
