@@ -11,3 +11,4 @@ jobs:
         run: | 
           echo "Hola Mundo" >> holat.txt
           cat holat.txt
+          ls -la
